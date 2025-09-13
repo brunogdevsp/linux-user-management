@@ -1,0 +1,16 @@
+# 📘 Contexto do Laboratório
+
+Este laboratório faz parte do módulo introdutório de cibersegurança e tem como objetivo aplicar conceitos de autenticação, autorização e controle de acesso em sistemas Linux.
+
+### Cenário Simulado
+
+Um novo funcionário chamado `researcher9` ingressa no departamento de Pesquisa. Como analista de segurança, fui responsável por configurar seu acesso ao sistema Linux. As tarefas foram divididas em etapas:
+
+1. Adicionar o usuário ao sistema
+2. Definir seu grupo primário
+3. Atribuir propriedade de arquivos
+4. Adicioná-lo a um grupo secundário
+5. Removê-lo do sistema após seu desligamento
+6. Excluir o grupo associado ao usuário, caso esteja vazio
+
+Este exercício representa um marco importante na minha formação como profissional de cibersegurança e administrador de sistemas Linux.
