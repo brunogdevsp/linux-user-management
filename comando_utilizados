@@ -1,0 +1,52 @@
+# 🛠️ Comandos Utilizados e Tarefas Executadas
+
+## 🔹 Tarefa 1: Adicionar um novo usuário ao sistema
+
+Para essa tarefa, usei o código:
+
+```bash
+sudo useradd researcher9
+Esse comando cria um novo usuário chamado researcher9 no sistema. O prefixo sudo garante que o comando seja executado com privilégios administrativos.
+
+🔹 Tarefa 2: Definir o grupo primário do usuário
+Para essa tarefa, usei o código:
+
+bash
+sudo usermod -g research_team researcher9
+Esse comando altera o grupo primário do usuário para research_team.
+
+Alternativamente, usei:
+
+bash
+sudo useradd researcher9 -g research_team
+Esse comando cria o usuário e já o associa ao grupo primário.
+
+🔹 Tarefa 3: Atribuir propriedade de arquivo
+Para essa tarefa, usei o código:
+
+bash
+sudo chown researcher9 /home/researcher2/projects/project_r.txt
+Esse comando transfere a propriedade do arquivo project_r.txt para o usuário researcher9.
+
+🔹 Tarefa 4: Adicionar o usuário a um grupo secundário
+Para essa tarefa, usei o código:
+
+bash
+sudo usermod -a -G sales_team researcher9
+Esse comando adiciona researcher9 ao grupo secundário sales_team.
+
+🔹 Tarefa 5: Excluir o usuário do sistema
+Para essa tarefa, usei o código:
+
+bash
+sudo userdel researcher9
+Esse comando exclui o usuário do sistema. A mensagem esperada foi:
+
+Código
+userdel: Group researcher9 not removed because it is not the primary group
+🔹 Tarefa 6: Excluir o grupo associado ao usuário
+Para essa tarefa, usei o código:
+
+bash
+sudo groupdel researcher9
+Esse comando remove o grupo researcher9 do sistema, como boa prática de limpeza.
